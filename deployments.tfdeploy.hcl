@@ -34,9 +34,5 @@ publish_output "subnet_private_id_prod" {
 }
 
 publish_output "subnet_public_id_prod" {
-  value = deployment.prod.subnet_public_id
-}
-
-publish_output "subnet_public_id_prod_dupe" {
-  value = deployment.prod.subnet_public_id
+  value = "qwerqwer"
 }
